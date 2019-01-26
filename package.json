@@ -1,5 +1,6 @@
 {
   "name": "showcase",
+  "author": "Ian Agpawa",
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
