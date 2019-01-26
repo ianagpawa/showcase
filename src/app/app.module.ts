@@ -5,6 +5,7 @@ import { NgModule } from '@angular/core';
 import { AppComponent } from './app.component';
 
 import {DialogModule} from 'primeng/dialog';
+import {CardModule} from 'primeng/card';
 
 @NgModule({
   declarations: [
@@ -13,7 +14,8 @@ import {DialogModule} from 'primeng/dialog';
   imports: [
     BrowserModule,
     BrowserAnimationsModule,
-    DialogModule
+    DialogModule,
+    CardModule
   ],
   providers: [],
   bootstrap: [AppComponent]
