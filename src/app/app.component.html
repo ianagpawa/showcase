@@ -8,8 +8,13 @@
 </p-dialog>
 
 <!-- <button type="button" (click)="showDialog()" icon="pi pi-info-circle" label="Show">Show</button> -->
-
-<p-card header="Simple Card" [style]="{width: '360px'}">
-  <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore sed consequuntur error repudiandae numquam deserunt
-      quisquam repellat libero asperiores earum nam nobis, culpa ratione quam perferendis esse, cupiditate neque quas!</div>
-</p-card>
+    
+<div class="p-grid">
+    <div *ngFor="let project of state.projects; let i = index"
+        class="p-col-4">
+        <p-card header="Simple Card" [style]="{width: '360px'}">
+                <h2>{{project.title}}</h2>
+                <div>{{project.description}}</div>
+            </p-card>
+    </div>
+</div>

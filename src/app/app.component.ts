@@ -33,7 +33,7 @@ export class AppComponent {
 
   ngOnInit(){
     this.state = {
-      projects: PROJECTS,
+      projects: PROJECTS.projects,
       showDialog: false
     }
 
