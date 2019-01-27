@@ -1,20 +1,25 @@
-<p-dialog header="Godfather I" [(visible)]="display" [modal]="true" [responsive]="true" [style]="{width: '350px', minWidth: '200px'}" [minY]="70" 
-        [maximizable]="true" [baseZIndex]="10000">
-    <span>The story begins as Don Vito Corleone</span>
-        <p-footer>
-            <button type="button" icon="pi pi-check" (click)="display=false" label="Yes">Yes</button>
-            <button type="button" icon="pi pi-close" (click)="display=false" label="No" class="ui-button-secondary">No</button>
-        </p-footer>
-</p-dialog>
-
+<div class="p-grid">
+    <div class="p-col-12 p-justify-center">
+        Black
+    </div>
+</div>
 <!-- <button type="button" (click)="showDialog()" icon="pi pi-info-circle" label="Show">Show</button> -->
     
 <div class="p-grid">
     <div *ngFor="let project of state.projects; let i = index"
-        class="p-col-4">
-        <p-card header="Simple Card" [style]="{width: '360px'}">
-                <h2>{{project.title}}</h2>
-                <div>{{project.description}}</div>
-            </p-card>
+        class="p-col-4 p-justify-even">
+        <p-card>
+            <img style="width:100%;height:100%;"
+                src="assets/images/image.jpg">
+        </p-card>
     </div>
 </div>
+
+<p-dialog header="Godfather I" [(visible)]="display" [modal]="true" [responsive]="true" [style]="{width: '350px', minWidth: '200px'}" [minY]="70" 
+    [maximizable]="true" [baseZIndex]="10000">
+    <span>The story begins as Don Vito Corleone</span>
+    <p-footer>
+        <button type="button" icon="pi pi-check" (click)="display=false" label="Yes">Yes</button>
+        <button type="button" icon="pi pi-close" (click)="display=false" label="No" class="ui-button-secondary">No</button>
+    </p-footer>
+</p-dialog>
