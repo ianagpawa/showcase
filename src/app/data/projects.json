@@ -1,57 +1,64 @@
 {
-    "projects": [
-        {
-            "title": "GIS Posters/ Brochures",
-            "picUrl": "image.jpg",
-            "description": "I had the oppertunity to create works for CUNY Borough of Manhattan Community College to promote there 'GIS' course department. Which consisted of posters and brochures."
-        }, {
+    "projects": {
+        "AHMB": {
             "title": "Asian Heritage Month Banner",
-            "picUrl": "image.jpg",
+            "picUrl": "ahm2014.jpg",
             "description": "I created a banner for CUNY Borough of Manhattan Community College to celebrate Asian Heritage Month 2014."
-        }, {
-            "title": "Ruben Musuem ",
-            "picUrl": "image.jpg",
-            "description": "I had the oppertunity to create a brochure for the 'Rubin Museum of Art', as an intern in the Borough of Manhattan Community College. These are samples of the pages of I created for the brochure."
-        }, {
-            "title": "Cuny Posters",
-            "picUrl": "image.jpg",
-            "description": "I created posters for CUNY Borough of Community College."
-        }, {
-            "title": "CityMD",
-            "picUrl": "image.jpg",
+        },
+        "CityMD": {
+            "title": "City MD",
+            "picUrl": "adbetter.jpg",
             "description": "I created a billboard advertisment for CityMD, for a college project, which was shown in a gallery in the New York City College of Technology."
-        }, {
+        },
+        "TradeJoes": {
             "title": "Trader Joes",
-            "picUrl": "image.jpg",
+            "picUrl": "burgeradtraderjoes.jpg",
             "description": "I created  advertisements for Trader Joes as a college project, which was shown in a gallery in New York City Colllege of Technology."
-        }, {
-            "title": "Reboot beer ad",
-            "picUrl": "image.jpg",
-            "description": "I was assigned a project in rebooting a alcoholic beverage label for a companies product, and this is what I came up."
-        }, {
+        },
+        "CrossFit": {
             "title": "Cross Fit",
-            "picUrl": "image.jpg",
+            "picUrl": "stick adv1.jpg",
             "description": "I created advertisements for a gym company called 'Cross Fit NYC' for my collage class project at the New York City Colllege of Technology."
-        }, {
+        },
+        "3DRoom": {
             "title": "3D room",
-            "picUrl": "image.jpg",
+            "picUrl": "forme.png",
             "description": "I created a three dimensional room using the program Maya for a college project."
-        }, {
+        },
+        "Character": {
             "title": "Character development in 3D",
-            "picUrl": "image.jpg",
+            "picUrl": "1.jpg",
             "description": "I created a three dimensional character which I designed for my animations using the Maya program. He's stars in a couple of short animation videos I created."
-        }, {
+        },
+        "Storyboard": {
             "title": "Storyboard",
-            "picUrl": "image.jpg",
+            "picUrl": "Traderjoesstoryboard.jpg",
             "description": "These are some samples of storyboards I created for my animation videos and commercial ads. Which I,ve done for my college projects, which shows the 'Romantic Comedy', and 'Trader Joes commercial'."
-        }, {
+        },
+        "Ruben": {
+            "title": "Ruben Musuem ",
+            "picUrl": "RMB-NUM-11.jpg",
+            "description": "I had the oppertunity to create a brochure for the 'Rubin Museum of Art', as an intern in the Borough of Manhattan Community College. These are samples of the pages of I created for the brochure."
+        },
+        "2DLevel": {
             "title": "2d game level design concept",
-            "picUrl": "image.jpg",
+            "picUrl": "levelGallery.jpg",
             "description": "This was a college project to propose a game level I designed , Which was shown in a gallery at the New York City College of Technology."
-        }, {
-            "title": "Level Design development",
-            "picUrl": "image.jpg",
-            "description": "This a screenshot of a level I designed and created. I was the lead level designer in a college group project for a game that my group developed, which we used the Unreal 4 Engine."
+        },
+        "GIS": {
+            "title": "GIS Posters/ Brochures",
+            "picUrl": "gisposter.jpg",
+            "description": "I had the oppertunity to create works for CUNY Borough of Manhattan Community College to promote there 'GIS' course department. Which consisted of posters and brochures."
+        },
+        "CUNY": {
+            "title": "Cuny Posters",
+            "picUrl": "poster2.jpg",
+            "description": "I created posters for CUNY Borough of Community College."
+        },
+        "Reboot": {
+            "title": "Reboot beer ad",
+            "picUrl": "Reboot Beer ad.jpg",
+            "description": "I was assigned a project in rebooting a alcoholic beverage label for a companies product, and this is what I came up."
         }
-    ]
+    }
 }

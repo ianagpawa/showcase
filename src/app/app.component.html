@@ -9,10 +9,10 @@
 </p-toolbar>
     
 <div class="p-grid">
-    <div *ngFor="let project of state.projects; let i = index"
+    <div *ngFor="let project of state.orderedProjects; let i = index"
         class="p-col-4 p-justify-even">
         <p-card [style]="{'margin-left': '3%','margin-right':'3%', 'margin-top':'5%'}">
-            <img style="width:100%;"
+            <img style="width:100%;height:100%;"
                 (click)="showDialog(project)"
                 src="assets/images/{{project.picUrl}}">
         </p-card>

@@ -1,4 +1,6 @@
 import { Component } from '@angular/core';
+import { APP_CONSTANTS, ORDER_PROJECTS } from './app.config';
+
 
 interface IProject {
   title: string;
@@ -7,9 +9,10 @@ interface IProject {
 }
 
 interface IAppState {
-  projects: IProject[]
+  projects: any;
   showDialog: boolean;
   selectedProject: IProject;
+  orderedProjects: any[];
 }
 
 const PROJECTS = require("./data/projects.json")
@@ -32,12 +35,21 @@ export class AppComponent {
 
   }
 
+
   ngOnInit(){
     this.state = {
       projects: PROJECTS.projects,
       showDialog: false,
-      selectedProject: PROJECTS.projects[0]
+      selectedProject: PROJECTS.projects[APP_CONSTANTS.PROJECTS.AHMB],
+      orderedProjects: []
     }
+    this.setUpProjects();
+  }
+
+  private setUpProjects() {
+    ORDER_PROJECTS.forEach((name) => {
+      this.state.orderedProjects.push(PROJECTS.projects[name]);
+    })
   }
 
 }
