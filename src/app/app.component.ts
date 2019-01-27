@@ -9,6 +9,7 @@ interface IProject {
 interface IAppState {
   projects: IProject[]
   showDialog: boolean;
+  selectedProject: IProject;
 }
 
 const PROJECTS = require("./data/projects.json")
@@ -19,11 +20,11 @@ const PROJECTS = require("./data/projects.json")
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  display: boolean = false;
   state: IAppState;
 
-  showDialog() {
-      this.display = true;
+  showDialog(project: IProject) {
+      this.state.selectedProject = project;
+      this.state.showDialog = true;
   }
 
 
@@ -34,10 +35,9 @@ export class AppComponent {
   ngOnInit(){
     this.state = {
       projects: PROJECTS.projects,
-      showDialog: false
+      showDialog: false,
+      selectedProject: PROJECTS.projects[0]
     }
-
-    console.log(this.state)
   }
 
 }

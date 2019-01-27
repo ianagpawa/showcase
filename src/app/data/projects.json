@@ -2,39 +2,51 @@
     "projects": [
         {
             "title": "First",
-            "picUrl": "4k-wallpaper-abstract-abstract-expressionism-1266808.jpg",
+            "picUrl": "image.jpg",
             "description": "First Project"
         }, {
             "title": "Second",
-            "picUrl": "Second Picture",
-            "description": "First Project"
+            "picUrl": "image.jpg",
+            "description": "Second Project"
         }, {
             "title": "Third",
-            "picUrl": "Third Picture",
-            "description": "First Project"
+            "picUrl": "image.jpg",
+            "description": "Third Project"
         }, {
             "title": "First",
-            "picUrl": "Picture",
+            "picUrl": "image.jpg",
             "description": "First Project"
         }, {
             "title": "Second",
-            "picUrl": "Second Picture",
-            "description": "First Project"
+            "picUrl": "image.jpg",
+            "description": "Second Project"
         }, {
             "title": "Third",
-            "picUrl": "Third Picture",
-            "description": "First Project"
+            "picUrl": "image.jpg",
+            "description": "Third Project"
         }, {
             "title": "First",
-            "picUrl": "Picture",
+            "picUrl": "image.jpg",
             "description": "First Project"
         }, {
             "title": "Second",
-            "picUrl": "Second Picture",
-            "description": "First Project"
+            "picUrl": "image.jpg",
+            "description": "Second Project"
         }, {
             "title": "Third",
-            "picUrl": "Third Picture",
+            "picUrl": "image.jpg",
+            "description": "Third Project"
+        }, {
+            "title": "First",
+            "picUrl": "image.jpg",
+            "description": "First Project"
+        }, {
+            "title": "Second",
+            "picUrl": "image.jpg",
+            "description": "Second Project"
+        }, {
+            "title": "Third",
+            "picUrl": "image.jpg",
             "description": "Third Project"
         }
     ]
