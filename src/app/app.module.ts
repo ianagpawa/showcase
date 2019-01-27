@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 
 import {DialogModule} from 'primeng/dialog';
 import {CardModule} from 'primeng/card';
+import {ToolbarModule} from 'primeng/toolbar';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import {CardModule} from 'primeng/card';
     BrowserModule,
     BrowserAnimationsModule,
     DialogModule,
-    CardModule
+    CardModule,
+    ToolbarModule
   ],
   providers: [],
   bootstrap: [AppComponent]
