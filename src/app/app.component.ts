@@ -1,5 +1,18 @@
 import { Component } from '@angular/core';
 
+interface IProject {
+  title: string;
+  picName: string;
+  description: string;
+}
+
+interface IAppState {
+  projects: IProject[]
+  showDialog: boolean;
+}
+
+const PROJECTS = require("./data/projects.json")
+
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
@@ -7,8 +20,24 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   display: boolean = false;
+  state: IAppState;
 
   showDialog() {
       this.display = true;
   }
+
+
+  constructor() {
+
+  }
+
+  ngOnInit(){
+    this.state = {
+      projects: PROJECTS,
+      showDialog: false
+    }
+
+    console.log(this.state)
+  }
+
 }
