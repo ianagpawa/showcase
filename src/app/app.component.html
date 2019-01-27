@@ -3,15 +3,15 @@
         <span class="font-lg bold">Jack Burton</span>
     </div>
     <div class="ui-toolbar-group-left">
-        <img style="height:5vh;margin-left:1vw;margin-top:auto"
+        <img style="height:7vh;margin-left:1vw;margin-top:auto"
             src="assets/images/logoaifinal.jpg">
     </div>
 </p-toolbar>
     
 <div class="p-grid">
     <div *ngFor="let project of state.projects; let i = index"
-        class="p-col-6 p-justify-even">
-        <p-card [style]="{padding: '2%'}">
+        class="p-col-4 p-justify-even">
+        <p-card [style]="{'margin-left': '3%','margin-right':'3%', 'margin-top':'5%'}">
             <img style="width:100%;"
                 (click)="showDialog(project)"
                 src="assets/images/{{project.picUrl}}">

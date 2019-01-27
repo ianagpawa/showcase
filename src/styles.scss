@@ -7,7 +7,7 @@
 
 body .ui-toolbar {
     background-color: white !important;
-    border: null;
+    border: 1px solid white;
 }
 
 .bw {
@@ -20,4 +20,8 @@ body .ui-toolbar {
 
 .bold {
     font-weight: bold;
+}
+
+.mt-2{
+    margin-top: 2rem;
 }
