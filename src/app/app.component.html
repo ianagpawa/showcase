@@ -16,7 +16,12 @@
     </div>
 </div>
 
-<p-dialog [(visible)]="state.showDialog" [modal]="true" [responsive]="true" [style]="{width: '60vw', minWidth: '200px'}" [minY]="70" 
+<p-dialog [(visible)]="state.showDialog" 
+    [modal]="true" 
+    [responsive]="true" 
+    [dismissableMask]="true"
+    [style]="{width: '60vw', minWidth: '200px'}" 
+    [minY]="70" 
     [baseZIndex]="10000">
     <p-card header="{{state.selectedProject.title}}" subheader="By Jack Burton" [style]="{width: '100%'}" styleClass="ui-card-shadow">
         <p-header>
