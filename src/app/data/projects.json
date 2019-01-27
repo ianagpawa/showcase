@@ -1,53 +1,57 @@
 {
     "projects": [
         {
-            "title": "First",
+            "title": "GIS Posters/ Brochures",
             "picUrl": "image.jpg",
-            "description": "First Project"
+            "description": "I had the oppertunity to create works for CUNY Borough of Manhattan Community College to promote there 'GIS' course department. Which consisted of posters and brochures."
         }, {
-            "title": "Second",
+            "title": "Asian Heritage Month Banner",
             "picUrl": "image.jpg",
-            "description": "Second Project"
+            "description": "I created a banner for CUNY Borough of Manhattan Community College to celebrate Asian Heritage Month 2014."
         }, {
-            "title": "Third",
+            "title": "Ruben Musuem ",
             "picUrl": "image.jpg",
-            "description": "Third Project"
+            "description": "I had the oppertunity to create a brochure for the 'Rubin Museum of Art', as an intern in the Borough of Manhattan Community College. These are samples of the pages of I created for the brochure."
         }, {
-            "title": "First",
+            "title": "Cuny Posters",
             "picUrl": "image.jpg",
-            "description": "First Project"
+            "description": "I created posters for CUNY Borough of Community College."
         }, {
-            "title": "Second",
+            "title": "CityMD",
             "picUrl": "image.jpg",
-            "description": "Second Project"
+            "description": "I created a billboard advertisment for CityMD, for a college project, which was shown in a gallery in the New York City College of Technology."
         }, {
-            "title": "Third",
+            "title": "Trader Joes",
             "picUrl": "image.jpg",
-            "description": "Third Project"
+            "description": "I created  advertisements for Trader Joes as a college project, which was shown in a gallery in New York City Colllege of Technology."
         }, {
-            "title": "First",
+            "title": "Reboot beer ad",
             "picUrl": "image.jpg",
-            "description": "First Project"
+            "description": "I was assigned a project in rebooting a alcoholic beverage label for a companies product, and this is what I came up."
         }, {
-            "title": "Second",
+            "title": "Cross Fit",
             "picUrl": "image.jpg",
-            "description": "Second Project"
+            "description": "I created advertisements for a gym company called 'Cross Fit NYC' for my collage class project at the New York City Colllege of Technology."
         }, {
-            "title": "Third",
+            "title": "3D room",
             "picUrl": "image.jpg",
-            "description": "Third Project"
+            "description": "I created a three dimensional room using the program Maya for a college project."
         }, {
-            "title": "First",
+            "title": "Character development in 3D",
             "picUrl": "image.jpg",
-            "description": "First Project"
+            "description": "I created a three dimensional character which I designed for my animations using the Maya program. He's stars in a couple of short animation videos I created."
         }, {
-            "title": "Second",
+            "title": "Storyboard",
             "picUrl": "image.jpg",
-            "description": "Second Project"
+            "description": "These are some samples of storyboards I created for my animation videos and commercial ads. Which I,ve done for my college projects, which shows the 'Romantic Comedy', and 'Trader Joes commercial'."
         }, {
-            "title": "Third",
+            "title": "2d game level design concept",
             "picUrl": "image.jpg",
-            "description": "Third Project"
+            "description": "This was a college project to propose a game level I designed , Which was shown in a gallery at the New York City College of Technology."
+        }, {
+            "title": "Level Design development",
+            "picUrl": "image.jpg",
+            "description": "This a screenshot of a level I designed and created. I was the lead level designer in a college group project for a game that my group developed, which we used the Unreal 4 Engine."
         }
     ]
 }
